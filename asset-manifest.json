@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reaction-time/static/css/main.4a980fb1.css",
+    "main.js": "/reaction-time/static/js/main.430c987c.js",
+    "index.html": "/reaction-time/index.html",
+    "main.4a980fb1.css.map": "/reaction-time/static/css/main.4a980fb1.css.map",
+    "main.430c987c.js.map": "/reaction-time/static/js/main.430c987c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a980fb1.css",
+    "static/js/main.430c987c.js"
+  ]
+}

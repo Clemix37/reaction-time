@@ -36,7 +36,10 @@ function App() {
 	const launch = () => {
 		emptyResults();
 		updateIsLaunched(true);
-		const time = parseInt(2 + (Math.random() * 8));
+		let time = parseInt(2 + (Math.random() * 8));
+		while(time < 2){
+			time = parseInt(2 + (Math.random() * 8));
+		}
 		setTimeout(() => {
 			updateDateMs(new Date());
 			updateIsDisplayed(true);
